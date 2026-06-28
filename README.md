@@ -4,10 +4,12 @@ Welcome to the official repository of the **Keyboardinator**, a compact, high-pe
 
 ### 📸 Keyboardinator Preview
 
-PCB
+**PCB**
+
 ![PCB](./PCB.png)
 
-Sexy Schema
+**Sexy Schema**
+
 ![Esquema](./Esquema.png)
 
 ## 🛠️ The Ninja Arsenal (Features)
