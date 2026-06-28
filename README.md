@@ -1,36 +1,26 @@
 # ⌨️ Keyboardinator
 
-Welcome to the official repository of the **Keyboardinator**, a compact, high-performance 3-key macropad built with style and precision. Featuring an integrated OLED display and custom RGB lighting, this little mechanical companion is engineered to elevate your daily workflow or gaming setup.
+Welcome to the official repository of the **Keyboardinator**, a compact, high-performance 3-key macropad built with style and precision. Designed to be your ultimate desk companion, this little mechanical powerhouse is engineered to optimize your workflow with a touch of "Ninja" stealth. 🚀
 
----
+## 🛠️ The Ninja Arsenal (Features)
+* **Triple Threat:** 3 mechanical switches programmed for lightning-fast productivity macros.
+* **OLED Display:** Integrated 0.91" I2C screen (GND-VCC-SCL-SDA) to keep you informed of your current layer or status.
+* **The Brains:** Powered by the incredibly compact Seeed Studio XIAO RP2040.
+* **Firmware:** Powered by **KMK**, allowing for easy customization directly via CircuitPython.
 
-## 🚀 Features
+## ⚙️ Ninja Mode (Functionality)
+* **Key 1 (Work Simulator):** Instantly minimizes all windows (`Win + D`).
+* **Key 2 (History Cleaner):** Closes the current browser tab (`Ctrl + W`).
+* **Key 3 (Security Lock):** Locks your computer instantly (`Win + L`).
 
-* **Triple Threat:** 3 mechanical switches for your most-used shortcuts or macros.
-* **OLED Display:** Integrated 0.91" I2C screen capable of displaying real-time text, status, or sleek custom animations (yes, even Bongo Cat!).
-* **Per-Key RGB:** Driven by vibrant SK6812MINI-E addressable LEDs for stunning lighting effects.
-* **The Brains:** Powered by the incredibly compact Seeed Studio XIAO development board.
-
----
-
-## 🛠️ Hardware & Specifications
-
-This project is fully designed using **KiCad**. The PCB layouts and production-ready files are organized right here in this repository.
-
-* **Microcontroller:** Seeed Studio XIAO (RP2040/SAMD21)
-* **Display:** 0.91" OLED Module (I2C interface: GND → VCC → SCL → SDA)
-* **LEDs:** SK6812MINI-E (Reverse-mount RGB LEDs)
-* **Form Factor:** Compact ergonomic design with stylized spaceship-panel corners.
-
----
+## 📦 Bill of Materials
+You can find the full list of components required for this project in the [BOM.md](BOM.md) file.
 
 ## 📁 Repository Structure
-
-* `/Gerbers`: Production-ready files generated for PCB manufacturing.
-* `*.kicad_pcb` / `*.kicad_sch`: Core schematic and PCB layout project files.
-
----
+* `/CAD`: 3D assembly of the case.
+* `/PCB`: KiCad source files (`.kicad_pro`, `.kicad_sch`, `.kicad_pcb`).
+* `/Firmware`: `main.py` source code for KMK.
+* `/production`: Final files (Gerbers + STL + copy of `main.py`).
 
 ## 🛸 About the Project
-
-The Keyboardinator is more than just a macropad—it's a journey into hardware engineering, PCB routing, and custom electronics documentation. Stay tuned as development progresses!
+The Keyboardinator is more than just a macropad—it's a journey into hardware engineering, PCB routing, and custom electronics. Designed with sleek corners and built for speed, this project transforms your setup into a true mission-control station.
