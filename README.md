@@ -2,6 +2,10 @@
 
 Welcome to the official repository of the **Keyboardinator**, a compact, high-performance 3-key macropad built with style and precision. Designed to be your ultimate desk companion, this little mechanical powerhouse is engineered to optimize your workflow with a touch of "Ninja" stealth. 🚀
 
+### 📸 Keyboardinator Preview
+![PCB](./PCB.png)
+![Esquema](./Esquema.png)
+
 ## 🛠️ The Ninja Arsenal (Features)
 * **Triple Threat:** 3 mechanical switches programmed for lightning-fast productivity macros.
 * **OLED Display:** Integrated 0.91" I2C screen (GND-VCC-SCL-SDA) to keep you informed of your current layer or status.
