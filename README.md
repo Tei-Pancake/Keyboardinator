@@ -3,7 +3,11 @@
 Welcome to the official repository of the **Keyboardinator**, a compact, high-performance 3-key macropad built with style and precision. Designed to be your ultimate desk companion, this little mechanical powerhouse is engineered to optimize your workflow with a touch of "Ninja" stealth. 🚀
 
 ### 📸 Keyboardinator Preview
+
+PCB
 ![PCB](./PCB.png)
+
+Sexy Schema
 ![Esquema](./Esquema.png)
 
 ## 🛠️ The Ninja Arsenal (Features)
