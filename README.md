@@ -4,9 +4,13 @@ Welcome to the official repository of the **Keyboardinator**, a compact, high-pe
 
 ### 📸 Keyboardinator Preview
 
-**PCB**
+**3D Model**
 
 ![PCB](./PCB.png)
+
+**PCB**
+
+![3d](./3d.png)
 
 **Sexy Schema**
 
