@@ -6,11 +6,11 @@ Welcome to the official repository of the **Keyboardinator**, a compact, high-pe
 
 **3D Model**
 
-![PCB](./PCB.png)
+![3d](./3d.png)
 
 **PCB**
 
-![3d](./3d.png)
+![PCB](./PCB.png) 
 
 **Sexy Schema**
 
