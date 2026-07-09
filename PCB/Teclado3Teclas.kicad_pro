@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "../Fabricacion_gerbers/",
+      "plot": "../gerbers/",
       "specctra_dsn": "",
       "vrml": ""
     },
