@@ -1,6 +1,10 @@
 # Keyboardinator
 
-Welcome to the official repository of the **Keyboardinator**, a compact, high-performance 3-key macropad built with style and precision. Designed to be your ultimate desk companion, this little mechanical powerhouse is engineered to optimize your workflow with a touch of "Ninja" stealth.
+Welcome to the Keyboardinator repository.
+
+The Keyboardinator is a small 3-key macropad I made because apparently having a normal keyboard wasn't enough. It's built around a XIAO RP2040, three mechanical switches, and a tiny OLED screen.
+
+The idea is pretty simple: three keys, three shortcuts, and hopefully a little less clicking around.
 
 ### Keyboardinator Preview
 
@@ -16,25 +20,47 @@ Welcome to the official repository of the **Keyboardinator**, a compact, high-pe
 
 ![Esquema](./Esquema.png)
 
-##  The Ninja Arsenal (Features)
-* **Triple Threat:** 3 mechanical switches programmed for lightning-fast productivity macros.
-* **OLED Display:** Integrated 0.91" I2C screen (GND-VCC-SCL-SDA) to keep you informed of your current layer or status.
-* **The Brains:** Powered by the incredibly compact Seeed Studio XIAO RP2040.
-* **Firmware:** Powered by **KMK**, allowing for easy customization directly via CircuitPython.
+### What's inside?
+3 mechanical switches for the actual button pressing stuff.
+0.91" OLED display connected through I2C (GND, VCC, SCL, SDA).
+Seeed Studio XIAO RP2040 as the brain of the whole thing.
+KMK + CircuitPython for the firmware, because I wanted something I could mess around with without making my life unnecessarily difficult.
 
-##  Ninja Mode (Functionality)
-* **Key 1 (Work Simulator):** Instantly minimizes all windows (`Win + D`).
-* **Key 2 (History Cleaner):** Closes the current browser tab (`Ctrl + W`).
-* **Key 3 (Security Lock):** Locks your computer instantly (`Win + L`).
+### What do the keys do?
+
+Nothing too complicated:
+
+Key 1 — Work Simulator: Win + D
+Makes the desktop appear. Very useful. Definitely not suspicious.
+Key 2 — History Cleaner: Ctrl + W
+Closes the current browser tab.
+Key 3 — Security Lock: Win + L
+Locks the computer.
+
+The OLED is there to show the current status/layer and also because a macropad with a tiny screen is cooler than one without it.
 
 ##  Bill of Materials
 You can find the full list of components required for this project in the [BOM.md](BOM.md) file.
 
 ## Repository Structure
-* `/CAD`: 3D assembly of the case.
-* `/PCB`: KiCad source files (`.kicad_pro`, `.kicad_sch`, `.kicad_pcb`).
-* `/Firmware`: `main.py` source code for KMK.
-* `/production`: Final files (Gerbers + STL + copy of `main.py`).
+/CAD 
+  3D files for the case. 
 
-## About the Project
-The Keyboardinator is more than just a macropad—it's a journey into hardware engineering, PCB routing, and custom electronics. Designed with sleek corners and built for speed, this project transforms your setup into a true mission-control station.
+/PCB 
+  KiCad project files. 
+
+/Firmware 
+  main.py and the KMK/CircuitPython stuff. 
+
+/production 
+  Final files for actually making the thing: Gerbers, STL files and a copy of main.py.
+
+### why did I make this?
+
+Mostly because I wanted to learn how the whole process works.
+
+This project involves a bit of everything: designing the case, making the PCB, routing it, figuring out the electronics, writing the firmware, and then trying to make all of it work together without something exploding.
+
+It's a tiny project, but that's kind of the point. I wanted something I could actually finish and hold in my hands instead of another project that lives forever in a folder called final_final_v3.
+
+Anyway, that's the Keyboardinator.
